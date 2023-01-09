@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+#indice{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.9)),url("img/img.png");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#indice .lista ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#indice .lista ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+#indice .lista ul li a:hover{
+    color: #ff5080;
+}
+
+#indice .lista{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#indice .lista h1{
+    font-size: 55px;
+}
+
+
+#articulos{
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
+
+#tutoriales{
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
